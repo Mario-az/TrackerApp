@@ -5,6 +5,8 @@
 
 Tracker is a minimal budget tracking app, with a local database management, your data is stored locally in the documents folder.
 
+> For the best experience, please install [Montserrat](https://fonts.google.com/specimen/Montserrat) font from google Fonts.
+
 ## Features
 ### Features of this program are various.
 
