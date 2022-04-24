@@ -222,7 +222,9 @@ void TrackerApp::loadIncomesCategories(){
     barStyleSheet.append(")}");
 
     ui->progressBar2->setStyleSheet(barStyleSheet);
-    ui->progressBar2->setValue(100);
+    if(get.getAccountValue("Income") == 0)
+        ui->progressBar2->setValue(0);
+    else ui->progressBar2->setValue(100);
 
 }
 
@@ -586,6 +588,7 @@ void TrackerApp::initSettings(){
                 newName.append(".db");
 
                 // rename file
+                QSqlDatabase::removeDatabase(QSqlDatabase::database().connectionName());
                 QFile::rename(oldName,newName);
                 name = ui->settingsNameLabel->text().simplified();
 
@@ -638,7 +641,7 @@ void TrackerApp::initSettings(){
         msgBox.setStyleSheet("background-color:white;"
                              "font:14px 'Montserrat';");
         msgBox.setText("Feature under development.");
-        msgBox.setStandardButtons(QMessageBox::Yes | QMessageBox::Cancel);
+        msgBox.setStandardButtons(QMessageBox::Ok);
         msgBox.setDefaultButton(QMessageBox::Cancel);
         int ret = msgBox.exec();
 
@@ -648,16 +651,7 @@ void TrackerApp::initSettings(){
         account.append(".db");
 
         switch (ret) {
-          case QMessageBox::Yes:
-              QFile::remove(account);
-
-              // restart qApp
-              qApp->quit();
-              QProcess::startDetached(qApp->arguments()[0], qApp->arguments());
-
-              break;
-          case QMessageBox::Cancel:
-              // do nothing
+          case QMessageBox::Ok:
               break;
         }
     });
