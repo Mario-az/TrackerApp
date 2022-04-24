@@ -23,6 +23,15 @@ The program includes a modern and light user interface, various settings can be 
 
 > A basic internet connection is required at startup to check location time, this avoids data corruption due to bad system clock or due to manual change of the system clock.
 
+## Future updates
+
+TrackerApp will see various improvements in the future, including:
+
+- UI improvements for Windows.
+- Dark mode.
+- Charts and spending statistics.
+- Ability to use an online (server) database and backup account.
+
 # Preview of the software
 
 <img src="https://user-images.githubusercontent.com/100368490/164795549-c174c784-1bcd-41f4-a2d5-ab596392c497.png" width="800">
@@ -38,7 +47,7 @@ The program includes a modern and light user interface, various settings can be 
 
 # Steps to install
 
-Tracker requires [Qt](https://www.qt.io/) to run.
+Tracker requires [Qt](https://www.qt.io/), and Qt Network and the Qsql module to compile.
 
 Step 1 - clone files
 ```sh
@@ -51,10 +60,8 @@ make clean
 Step 3 - Sign up and get token ID from [TimezoneAPI](https://timezoneapi.io/)
 ```sh
 cd Path/to/release/or/Debug/Folder
-cat > Token.txt
-## INSERT TOKEN HERE ##
-Ctrl + D to exit
 ```
+create a text file name 'token.txt' and insert token from TimezoneAPI
 
 # License
 
