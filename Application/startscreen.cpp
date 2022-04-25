@@ -98,7 +98,7 @@ void StartScreen::displayAccounts()
                                " border-style: inset; }"
                                " QPushButton:pressed { "
                                "background-color: rgb(217, 219, 230); }");
-        accountButton->setIcon(QIcon(":/images/usericon.png"));
+        accountButton->setIcon(QIcon(":/resources/usericon.png"));
         accountButton->setIconSize(QSize(50,50));
     }
     ui->noAccountsLabel->hide();

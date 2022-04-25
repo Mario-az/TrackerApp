@@ -163,8 +163,8 @@ QPushButton:checked {
          <string> Scheduled</string>
         </property>
         <property name="icon">
-         <iconset resource="../images.qrc">
-          <normaloff>:/images/schedule.png</normaloff>:/images/schedule.png</iconset>
+         <iconset resource="../resources.qrc">
+          <normaloff>:/resources/schedule.png</normaloff>:/resources/schedule.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -894,8 +894,8 @@ QPushButton:pressed {
                 <string>    Submit Transaction</string>
                </property>
                <property name="icon">
-                <iconset resource="../images.qrc">
-                 <normaloff>:/images/add.png</normaloff>:/images/add.png</iconset>
+                <iconset resource="../resources.qrc">
+                 <normaloff>:/resources/add.png</normaloff>:/resources/add.png</iconset>
                </property>
                <property name="flat">
                 <bool>false</bool>
@@ -1142,7 +1142,7 @@ border-radius: 2px;</string>
   </layout>
  </widget>
  <resources>
-  <include location="../images.qrc"/>
+  <include location="../resources.qrc"/>
  </resources>
  <connections/>
 </ui>

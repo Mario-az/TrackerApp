@@ -125,17 +125,17 @@ void TrackerApp::transferAmount(){
 
     if(from == to || from.isEmpty() || to.isEmpty() || amount == 0)
     {
-        ui->transferButton->setIcon(QPixmap(":/images/remove.png"));
+        ui->transferButton->setIcon(QPixmap(":/resources/remove.png"));
         return;
     }
     else if(set.transferAmount(from, to, amount)){
-        ui->transferButton->setIcon(QPixmap(":/images/success.png"));
+        ui->transferButton->setIcon(QPixmap(":/resources/success.png"));
         ui->transferAmountBox->setValue(0);
         refresh();
         return;
     }
     else{
-        ui->transferButton->setIcon(QPixmap(":/images/remove.png"));
+        ui->transferButton->setIcon(QPixmap(":/resources/remove.png"));
         return;
     }
 }
@@ -368,8 +368,8 @@ QWidget* TrackerApp::createWidgetTransaction(Transaction& t){
     // icon
     QLabel* icon = new QLabel(i);
     icon->setFixedSize(QSize(30,30));
-    if(t.getType() == "Income") icon->setPixmap(QPixmap(":/images/income.png"));
-    if(t.getType() == "Expenses") icon->setPixmap(QPixmap(":/images/expense.png"));
+    if(t.getType() == "Income") icon->setPixmap(QPixmap(":/resources/income.png"));
+    if(t.getType() == "Expenses") icon->setPixmap(QPixmap(":/resources/expense.png"));
     icon->setScaledContents(true);
     icon->setStyleSheet("border:0px;");
     horizontalLayout->addWidget(icon);
@@ -415,7 +415,7 @@ QWidget* TrackerApp::createWidgetTransaction(Transaction& t){
                               "QPushButton:checked{"
                               "background-color:rgb(222, 221, 218);}");
 
-    editButton->setIcon(QPixmap(":/images/editPen.png"));
+    editButton->setIcon(QPixmap(":/resources/editPen.png"));
     editButton->setIconSize(QSize(12,12));
     horizontalLayout->addWidget(editButton,0, Qt::AlignRight);
 
@@ -447,8 +447,8 @@ QWidget* TrackerApp::createWidgetSchedule(Transaction& t){
     // icon
     QLabel* icon = new QLabel(i);
     icon->setFixedSize(QSize(30,30));
-    if(t.getType() == "Income") icon->setPixmap(QPixmap(":/images/income-schedule.png"));
-    if(t.getType() == "Expenses") icon->setPixmap(QPixmap(":/images/expense-schedule.png"));
+    if(t.getType() == "Income") icon->setPixmap(QPixmap(":/resources/income-schedule.png"));
+    if(t.getType() == "Expenses") icon->setPixmap(QPixmap(":/resources/expense-schedule.png"));
     icon->setScaledContents(true);
     icon->setStyleSheet("border:0px;");
     horizontalLayout->addWidget(icon);
@@ -493,7 +493,7 @@ QWidget* TrackerApp::createWidgetSchedule(Transaction& t){
                               "QPushButton:checked{"
                               "background-color:rgb(222, 221, 218);}");
 
-    cancelButton->setIcon(QPixmap(":/images/cancel.png"));
+    cancelButton->setIcon(QPixmap(":/resources/cancel.png"));
     cancelButton->setIconSize(QSize(9,9));
     horizontalLayout->addWidget(cancelButton,0, Qt::AlignRight);
 
@@ -514,7 +514,7 @@ QWidget* TrackerApp::createWidgetSchedule(Transaction& t){
                               "QPushButton:checked{"
                               "background-color:rgb(222, 221, 218);}");
 
-    acceptButton->setIcon(QPixmap(":/images/accept.png"));
+    acceptButton->setIcon(QPixmap(":/resources/accept.png"));
     acceptButton->setIconSize(QSize(12,12));
     horizontalLayout->addWidget(acceptButton,0, Qt::AlignRight);
 

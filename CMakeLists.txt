@@ -19,32 +19,32 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Sql Network)
 set(PROJECT_SOURCES
         main.cpp
 
-        interface/addtransactionform.cpp
-        databaseManager/dbconnection.cpp
-        databaseManager/dbgetter.cpp
-        databaseManager/dbsetter.cpp
-        interface/edittransactiondialog.cpp
-        databaseManager/global.cpp
-        interface/startscreen.cpp
-        interface/trackerapp.cpp
+        Application/addtransactionform.cpp
+        libs/Utilities/dbconnection.cpp
+        libs/Utilities/dbgetter.cpp
+        libs/Utilities/dbsetter.cpp
+        Application/edittransactiondialog.cpp
+        libs/Utilities/global.cpp
+        Application/startscreen.cpp
+        Application/trackerapp.cpp
 
-        interface/addtransactionform.h
-        databaseManager/dbconnection.h
-        databaseManager/dbgetter.h
-        databaseManager/dbsetter.h
-        interface/edittransactiondialog.h
-        databaseManager/global.h
-        templates/operation.h
-        interface/startscreen.h
-        interface/trackerapp.h
-        templates/transaction.h
+        Application/addtransactionform.h
+        libs/Utilities/dbconnection.h
+        libs/Utilities/dbgetter.h
+        libs/Utilities/dbsetter.h
+        Application/edittransactiondialog.h
+        libs/Utilities/global.h
+        libs/operation.h
+        Application/startscreen.h
+        Application/trackerapp.h
+        libs/transaction.h
 
-        interface/addtransactionform.ui
-        interface/edittransactiondialog.ui
-        interface/startscreen.ui
-        interface/trackerapp.ui
+        Application/addtransactionform.ui
+        Application/edittransactiondialog.ui
+        Application/startscreen.ui
+        Application/trackerapp.ui
 
-        images.qrc
+        resources.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -9,10 +9,10 @@
 #include <cctype>
 #include <QDate>
 #include <QStandardPaths>
-#include "templates/transaction.h"
-#include "global.h"
-#include "dbgetter.h"
-#include "dbsetter.h"
+#include "libs/transaction.h"
+#include "libs/Utilities/global.h"
+#include "libs/Utilities/dbgetter.h"
+#include "libs/Utilities/dbsetter.h"
 
 class DbConnection
 {

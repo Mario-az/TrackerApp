@@ -465,8 +465,8 @@ background-color: rgb(255, 179, 179);
            <string> Delete</string>
           </property>
           <property name="icon">
-           <iconset resource="../images.qrc">
-            <normaloff>:/images/remove.png</normaloff>:/images/remove.png</iconset>
+           <iconset resource="../resources.qrc">
+            <normaloff>:/resources/remove.png</normaloff>:/resources/remove.png</iconset>
           </property>
           <property name="flat">
            <bool>false</bool>
@@ -653,7 +653,7 @@ background-color:white;</string>
   </layout>
  </widget>
  <resources>
-  <include location="../images.qrc"/>
+  <include location="../resources.qrc"/>
  </resources>
  <connections/>
 </ui>

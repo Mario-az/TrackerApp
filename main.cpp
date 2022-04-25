@@ -1,5 +1,5 @@
-#include "interface/startscreen.h"
-#include "databaseManager/global.h"
+#include "Application/startscreen.h"
+#include "libs/Utilities/global.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
         qputenv("QT_FONT_DPI", "84");
     };
     QApplication a(argc, argv);
-    a.setWindowIcon(QIcon(":/images/Icon256x256.png"));
+    a.setWindowIcon(QIcon(":/resources/Icon256x256.png"));
     Global();
     StartScreen w;
     w.show();

@@ -5,10 +5,10 @@
 #include <QMessageBox>
 #include <QDialogButtonBox>
 #include <QVector>
-#include "templates/transaction.h"
-#include "databaseManager/global.h"
-#include "databaseManager/dbgetter.h"
-#include "databaseManager/dbsetter.h"
+#include "libs/transaction.h"
+#include "libs/Utilities/global.h"
+#include "libs/Utilities/dbgetter.h"
+#include "libs/Utilities/dbsetter.h"
 
 namespace Ui {
 class AddTransactionForm;

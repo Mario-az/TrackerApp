@@ -9,12 +9,12 @@
 #include <QDir>
 #include <QDesktopServices>
 #include <QUrl>
-#include "interface/addtransactionform.h"
-#include "interface/edittransactiondialog.h"
-#include "databaseManager/global.h"
-#include "databaseManager/dbgetter.h"
-#include "databaseManager/dbconnection.h"
-#include "databaseManager/dbsetter.h"
+#include "Application/addtransactionform.h"
+#include "Application/edittransactiondialog.h"
+#include "libs/Utilities/global.h"
+#include "libs/Utilities/dbgetter.h"
+#include "libs/Utilities/dbconnection.h"
+#include "libs/Utilities/dbsetter.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class TrackerApp; }

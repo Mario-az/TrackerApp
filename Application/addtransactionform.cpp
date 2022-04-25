@@ -193,8 +193,8 @@ QWidget* AddTransactionForm::createWidgetSchedule(Transaction& t){
     // icon
     QLabel* icon = new QLabel(i);
     icon->setFixedSize(QSize(30,30));
-    if(t.getType() == "Income") icon->setPixmap(QPixmap(":/images/income-schedule.png"));
-    if(t.getType() == "Expenses") icon->setPixmap(QPixmap(":/images/expense-schedule.png"));
+    if(t.getType() == "Income") icon->setPixmap(QPixmap(":/resources/income-schedule.png"));
+    if(t.getType() == "Expenses") icon->setPixmap(QPixmap(":/resources/expense-schedule.png"));
     icon->setStyleSheet("border:0px;");
     icon->setScaledContents(true);
     horizontalLayout->addWidget(icon);
@@ -254,7 +254,7 @@ QWidget* AddTransactionForm::createWidgetSchedule(Transaction& t){
                               "QPushButton:checked{"
                               "background-color:rgb(222, 221, 218);}");
 
-    cancelButton->setIcon(QPixmap(":/images/cancel.png"));
+    cancelButton->setIcon(QPixmap(":/resources/cancel.png"));
     cancelButton->setIconSize(QSize(9,9));
     horizontalLayout->addWidget(cancelButton,0, Qt::AlignRight);
 

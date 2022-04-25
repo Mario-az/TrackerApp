@@ -327,7 +327,7 @@ font: 300 13px &quot;Montserrat&quot;;</string>
                 </property>
                 <property name="icon">
                  <iconset>
-                  <normaloff>:/images/transfer.png</normaloff>:/images/transfer.png</iconset>
+                  <normaloff>:/resources/transfer.png</normaloff>:/resources/transfer.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -607,7 +607,7 @@ font: 700 18px &quot;Montserrat&quot;;</string>
                   </property>
                   <property name="icon">
                    <iconset>
-                    <normaloff>:/images/settings.png</normaloff>:/images/settings.png</iconset>
+                    <normaloff>:/resources/settings.png</normaloff>:/resources/settings.png</iconset>
                   </property>
                   <property name="iconSize">
                    <size>

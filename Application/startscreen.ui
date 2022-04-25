@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>:/images/Icon256x256.png</normaloff>:/images/Icon256x256.png</iconset>
+    <normaloff>:/resources/Icon256x256.png</normaloff>:/resources/Icon256x256.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QWidget#StartScreen{
@@ -101,7 +101,7 @@ background-color: #4260FF;}</string>
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>:/images/Icon.png</pixmap>
+           <pixmap>:/resources/Icon.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -533,7 +533,7 @@ QPushButton:pressed {
                  </property>
                  <property name="icon">
                   <iconset>
-                   <normaloff>:/images/blackarrowleft.png</normaloff>:/images/blackarrowleft.png</iconset>
+                   <normaloff>:/resources/blackarrowleft.png</normaloff>:/resources/blackarrowleft.png</iconset>
                  </property>
                  <property name="iconSize">
                   <size>

@@ -6,8 +6,8 @@
 #include <QDir>
 #include <QStandardPaths>
 #include "trackerapp.h"
-#include "databaseManager/global.h"
-#include "databaseManager/dbconnection.h"
+#include "libs/Utilities/global.h"
+#include "libs/Utilities/dbconnection.h"
 
 namespace Ui {
 class StartScreen;

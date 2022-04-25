@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/accept.png</file>
+        <file>resources/add.png</file>
+        <file>resources/blackarrowleft.png</file>
+        <file>resources/blackarrowright.png</file>
+        <file>resources/blackIcon.png</file>
+        <file>resources/cancel.png</file>
+        <file>resources/downarrow.png</file>
+        <file>resources/editPen.png</file>
+        <file>resources/expense.png</file>
+        <file>resources/expense-schedule.png</file>
+        <file>resources/Icon.ico</file>
+        <file>resources/Icon.png</file>
+        <file>resources/Icon256x256.png</file>
+        <file>resources/income.png</file>
+        <file>resources/income-schedule.png</file>
+        <file>resources/plussign.png</file>
+        <file>resources/remove.png</file>
+        <file>resources/schedule.png</file>
+        <file>resources/settings.png</file>
+        <file>resources/success.png</file>
+        <file>resources/transfer.png</file>
+        <file>resources/usericon.png</file>
+        <file>resources/whitearrow.png</file>
+    </qresource>
+</RCC>

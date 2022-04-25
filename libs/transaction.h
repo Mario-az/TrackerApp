@@ -5,7 +5,7 @@
 #include <QString>
 #include <iostream>
 #include <QDate>
-#include "databaseManager/global.h"
+#include "libs/Utilities/global.h"
 
 class Transaction
 {
