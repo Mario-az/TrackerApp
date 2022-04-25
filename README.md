@@ -29,6 +29,7 @@ TrackerApp will see various improvements in the future, including:
 
 - UI improvements for Windows.
 - Dark mode.
+- Ability to convert currencies.
 - Charts and spending statistics.
 - Ability to use an online (server) database and backup account.
 
