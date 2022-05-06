@@ -3,7 +3,7 @@
 
 <a href="https://www.qt.io/"><img src="https://img.shields.io/badge/Powered%20by-Qt%20Framework-blue.svg"/></a>
 <a href="https://www.sqlite.org/index.html"><img src="https://img.shields.io/badge/Powered%20by-SQLite-black.svg"/></a>
-<a href="https://www.qt.io/"><img src="https://img.shields.io/badge/C++%20version-C++%2017-red.svg"/></a>
+<a href="https://en.cppreference.com/w/cpp/17"><img src="https://img.shields.io/badge/C++%20version-C++%2017-red.svg"/></a>
 <a href="https://github.com/Mario-az/TrackerApp/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL-green.svg"/></a>
 
 Tracker is a minimal budget tracking app, with a local database management, your data is stored locally in the documents folder.
