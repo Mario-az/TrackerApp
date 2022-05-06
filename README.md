@@ -1,8 +1,6 @@
 # Tracker App
 ## _Easy and minimal budget tracker_
 
-[![Build Status](https://github.com/ntkme/github-buttons/workflows/build/badge.svg)](https://www.qt.io/)
-
 Tracker is a minimal budget tracking app, with a local database management, your data is stored locally in the documents folder.
 
 > For the best experience, please install [Montserrat](https://fonts.google.com/specimen/Montserrat) font from google Fonts.
@@ -35,9 +33,9 @@ TrackerApp will see various improvements in the future, including:
 
 # Preview of the software
 
-<img src="https://user-images.githubusercontent.com/100368490/164795549-c174c784-1bcd-41f4-a2d5-ab596392c497.png" width="800">
-<img src="https://user-images.githubusercontent.com/100368490/164799975-645a176b-54d6-4991-a2dd-967a924daa2d.png" width="800">
-<img src="https://user-images.githubusercontent.com/100368490/164799968-cd79c349-302a-467b-a07a-fdda1b54d536.png" width="800">
+<img src="https://user-images.githubusercontent.com/100368490/167104210-fd39d782-021d-4095-ae4f-281a9f25af5e.jpg" width="800">
+<img src="https://user-images.githubusercontent.com/100368490/167104174-af5baa3f-9c4c-4749-8a5f-57b4234ca6b7.jpg" width="800">
+<img src="https://user-images.githubusercontent.com/100368490/167104197-2a6e1ea9-5b8e-4995-99ca-cdf052434209.jpg" width="800">
 
 # Tech
 ## Built with Qt 6
@@ -54,9 +52,9 @@ Step 1 - clone files
 ```sh
 git clone git@github.com:Mario-az/TrackerApp.git
 ```
-Step 2 - Compile using make after generating Makefile
-```sh
-make clean
+Step 2 - Compile using qt
+```
+https://doc.qt.io/qt-5/build-sources.html
 ```
 Step 3 - Sign up and get token ID from [TimezoneAPI](https://timezoneapi.io/)
 ```sh
