@@ -1994,7 +1994,7 @@ color:black;</string>
 color:rgb(60, 60, 60);</string>
             </property>
             <property name="text">
-             <string>This app was made by Mario Abou Zeid using 
+             <string>This app was made by Mario-az using 
 Qt 6.2.3 Framework &amp; Timezone API</string>
             </property>
             <property name="alignment">
